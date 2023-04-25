@@ -31,13 +31,19 @@ $cargueEstados = mostrar_estados($conn);
         <div class="overview-general">
             <!--TÍTULO-->
             <div class="title">
-                <h1 class="panel-title-name">Prueba de Desarrollo</h1>
+                <h1 class="panel-title-name">PRUEBA DE DESARROLLO</h1>
+            </div>
+            <div class="title">
+                <h2 class="panel-title-name">Facturas</h2>
             </div>
             <!--BOTÓN CREAR-->
             <div class="new-record-container">
                 <label for="btn-modal-add-record" class="btn-add-record" title="Crear factura">
-                    <i class="uil uil-plus-circle"></i>Nuevo
+                    <i class="uil uil-plus-circle"></i>Nueva factura
                 </label>
+                <a class="btn-add-record btn-gestionClientes" title="Ir a sección de clientes" href="./clientes.php">
+                <i class="uil uil-user"></i>Gestión de clientes
+                </a>
             </div>
             <!--MODAL CREAR-->
             <input type="checkbox" id="btn-modal-add-record">

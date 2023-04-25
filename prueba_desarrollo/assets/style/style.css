@@ -50,6 +50,13 @@ h1{
     padding: 10px;
     font-size:2rem;
 }
+/**Estilo para el título secundario*/
+h2{
+    color:rgba(51, 51, 51, 0.719);
+    text-align: center;
+    padding: 10px;
+    font-size:1.5rem;
+}
 
 .general-container{
     padding: 0 50px;
@@ -76,6 +83,13 @@ h1{
 .btn-add-record:hover{
     background-color:  var(--create-button-hover);
 }
+.btn-gestionClientes{
+    background-color:  var(--main-color);
+}
+.btn-gestionClientes:hover{
+    background-color:  #c79841;
+}
+
 
 /*?------------------------MODAL NUEVO/CREAR--------------------------*/
 #btn-modal-add-record{
@@ -399,20 +413,6 @@ select::-ms-expand{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*?---------------------MOSTRANDO DE X 1 X DE X ENTRADAS----------------------*/
 .dataTables_info{
     text-align: center;
@@ -461,14 +461,3 @@ select::-ms-expand{
     font-weight: 500;
     color: var(--main-color);
 }
-
-
-
-
-
-
-
-
-
-
-/*?--------------------RESPONSIVE--------------------*/
